@@ -1,8 +1,5 @@
 /* ============================================================
-   DENIONA HOLDINGS CO. LTD — MASTER STYLESHEET (style.css)
-   One file for all 6 pages: Home, About, Businesses,
-   Impact, Partner, Contact
-   ------------------------------------------------------------
+      ------------------------------------------------------------
    NOTE: Fonts & icons must still be linked in each page's <head>
    (see instructions below this file).
    ============================================================ */
@@ -62,7 +59,7 @@ section{padding:80px 0}
 /* ============ HEADER / NAV ============ */
 header{position:sticky;top:0;z-index:100;background:var(--white);box-shadow:0 2px 15px rgba(16,41,74,.08)}
 .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
-.logo{display:flex;align-items:center;gap:10px}
+.logo{display:flex;align-items:center;gap:8px}
 .logo-badge{width:46px;height:46px;background:linear-gradient(135deg,var(--navy),var(--navy-soft));color:var(--gold);
   display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;
   font-weight:800;font-size:1.15rem;border-radius:10px;border:2px solid var(--gold)}
@@ -122,8 +119,8 @@ nav a:hover,nav a.active{color:var(--gold-dark);border-bottom-color:var(--gold)}
 .sectors{background:var(--bg-light)}
 .grid-10{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
 .sector{background:var(--white);border-radius:var(--radius);padding:30px 20px;text-align:center;
-  border:1px solid #e6ecf3;transition:.28s;cursor:default}
-.sector:hover{transform:translateY(-8px);box-shadow:var(--shadow);border-color:var(--gold)}
+  border:1px solid #e6ecf3;cursor:default}
+
 .sector .icon{width:62px;height:62px;margin:0 auto 16px;border-radius:16px;
   background:linear-gradient(135deg,var(--navy),var(--navy-soft));color:var(--gold);
   display:flex;align-items:center;justify-content:center;font-size:1.5rem}
